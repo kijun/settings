@@ -1,0 +1,6 @@
+startup_message off
+hardstatus on
+hardstatus alwayslastline
+vbell off
+defscrollback 1024
+caption always "%{= kw}%-w%{= BW}%n %t%{-}%+w %-= %c"
