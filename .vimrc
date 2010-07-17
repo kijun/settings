@@ -17,6 +17,9 @@ filetype on           " Enable filetype detection
 filetype indent on    " Enable filetype-specific indenting
 
 au BufRead,BufNewFile *py,*pyw,*.c,*.h set ts=4 sts=4 sw=4
+au BufRead,BufNewFile *html set ts=2 sts=2 sw=2
+au BufRead,BufNewFile *less set ts=2 sts=2 sw=2
+au Filetype less set ts=2 sw=2 sts=2
 au FileType lua set ts=4 sw=4 sts=4
 au FileType python set ts=4 sw=4 sts=4
 au FileType html set ts=2 sw=2 sts=2
