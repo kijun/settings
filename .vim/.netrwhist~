@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/kijun/Code/flo/js/rtf/ops'
+let g:netrw_dirhist_2='/Users/kijun/Code/flo/js/rtf/web'
+let g:netrw_dirhist_3='/Users/kijun/Code/flo/js/rtf'
+let g:netrw_dirhist_4='/Users/kijun/Code/flo/js/rtf/ios'
