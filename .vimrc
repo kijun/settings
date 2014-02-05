@@ -46,3 +46,6 @@ set autoread
 set hlsearch
 
 call pathogen#infect()
+
+autocmd BufWritePre * :%s/\s\+$//e
+
